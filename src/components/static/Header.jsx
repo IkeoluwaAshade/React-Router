@@ -5,6 +5,7 @@ import {FaBookOpen} from 'react-icons/fa'
 import {AiFillContacts} from 'react-icons/ai'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {GiCancel} from 'react-icons/gi'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [toggle, setToggle] = useState(false)
@@ -21,25 +22,33 @@ const Header = () => {
         </LogoDiv>
 
         <NavDiv>
-          <Navigations>
-            <FaBookOpen />    
-            <span>About</span>
-          </Navigations>
+          <Link to="about">
+            <Navigations>
+              <FaBookOpen />    
+              <span>About</span>
+            </Navigations>
+          </Link>
 
-          <Navigations>
-          <AiFillContacts />    
-            <span>Contact Us</span>
-          </Navigations>
+          <Link to="contact">
+            <Navigations>
+              <AiFillContacts />    
+              <span>Contact Us</span>
+            </Navigations>
+          </Link>
 
-          <Navigations>
-            <FaBookOpen />    
-            <span>FAQs</span>
-          </Navigations>
+          <Link to="faq">
+            <Navigations>
+              <FaBookOpen />    
+              <span>FAQs</span>
+            </Navigations>
+          </Link>
 
-          <Navigations>
-            <AiFillHome />    
-            <span>Help</span>
-          </Navigations>
+          <Link to="help">
+            <Navigations>
+              <AiFillHome />    
+              <span>Help</span>
+            </Navigations>
+          </Link>
         </NavDiv>  
 
         <BurgerIconHold onClick={toggleChange}>

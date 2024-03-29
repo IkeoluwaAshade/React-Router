@@ -4,6 +4,7 @@ import LandingPage from "../pages/LandingPage";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import FAQ from "../pages/FAQ";
+import Help from "../pages/Help";
 
 
 
@@ -30,6 +31,11 @@ export const mainRoute = createBrowserRouter ([
             {
                 path: "/faq",
                 element: <FAQ />,
+            },
+
+            {
+                path: "/help",
+                element: <Help />,
             },
         ],
     },
