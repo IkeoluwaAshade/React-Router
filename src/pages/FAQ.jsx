@@ -34,7 +34,7 @@ const Wrapper = styled.div``
 
 const DommyText = styled.div`
  
-  color: grey;
+  color: purple;
   width: 100%;
 
   display: flex;

@@ -33,8 +33,7 @@ const Container = styled.div``
 const Wrapper = styled.div``
 
 const DommyText = styled.div`
-  background-color: red;
-  color: grey;
+  color: red;
   width: 100%;
 
   display: flex;

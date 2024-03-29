@@ -34,8 +34,7 @@ const Container = styled.div``
 const Wrapper = styled.div``
 
 const DommyText = styled.div`
-  background-color: green;
-  color: grey;
+  color: orange;
   width: 100%;
 
   display: flex;
