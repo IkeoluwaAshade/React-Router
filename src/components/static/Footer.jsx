@@ -22,7 +22,7 @@ const Footer = () => {
                 <FooterNavigationDiv>
                     <h4>About Us</h4>
                     <ul>
-                        <li>CreateBrowserReact</li>
+                        <li>Router</li>
                         <li>mainRoute</li>
                         <li>Pretty Cool</li>
                     </ul>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <FooterNavigationDiv>
                     <h4>Blog</h4>
                     <ul>
-                        <li>webLayout</li>
+                        <li>Route</li>
                         <li>Press</li>
                         <li>Outlet</li>
                     </ul>
@@ -81,11 +81,16 @@ const FooterNavDiv = styled.div`
 `
 
 const FooterNavigationDiv = styled.div`
-    /* background-color: red; */
     display: flex;
     align-items:  center;
+    justify-content: center;
     flex-direction: column;
 
     width: 150px;
-    /* height: 70px; */
+
+    
+
+    li {
+        font-size: 15px;
+    }
 `
