@@ -1,14 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import Header from '../components/static/Header'
+import DommyParagraph from '../components/block/DommyParagraph'
 import Footer from '../components/static/Footer'
 
 const LandingPage = () => {
   return (
     <Container>
         <Wrapper>
-          <Header />
-            <DommyText>
+          {/* <Header /> */}
+          <DommyParagraph />
+            {/* <DommyText>
               <ParagraphDiv>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus pretium quam. Ultrices eros in cursus turpis massa tincidunt dui. Varius sit amet mattis vulputate enim nulla. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Dolor sit amet consectetur adipiscing. Nisi scelerisque eu ultrices vitae auctor eu. Vulputate ut pharetra sit amet aliquam id diam. Arcu bibendum at varius vel. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Ultrices vitae auctor eu augue ut lectus arcu. Quam pellentesque nec nam aliquam sem. Facilisi cras fermentum odio eu. In pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Eget nulla facilisi etiam dignissim diam quis.
@@ -23,7 +25,7 @@ const LandingPage = () => {
               </p>
             </ParagraphDiv>
             
-          </DommyText>
+          </DommyText> */}
           <Footer />
         </Wrapper>
     </Container>
@@ -39,21 +41,21 @@ const Container = styled.div`
 const Wrapper = styled.div`
 `
 
-const DommyText = styled.div`
+// const DommyText = styled.div`
  
-  color: grey;
-  width: 100%;
+//   color: grey;
+//   width: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-const ParagraphDiv = styled.div`
-  width: 85%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `
+// const ParagraphDiv = styled.div`
+//   width: 85%;
+//   display: flex;
+//   justify-content: center;
+//   align-content: center;
+//   flex-direction: column;
+// `
 
 

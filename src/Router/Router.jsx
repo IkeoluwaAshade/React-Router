@@ -10,7 +10,7 @@ import Help from "../pages/Help";
 
 export const mainRoute = createBrowserRouter ([
     {
-        elemenet: <WebLayout />,
+        element: <WebLayout />,
         children: [
             {
                 path: "/",
